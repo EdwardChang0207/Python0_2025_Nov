@@ -63,5 +63,11 @@ print([i%3 for i in range(9)])
 
 '1 2 3' -> ['1','2','3']
 [1, 2, 3]
-'''
 [int(i) for i in input().split()]
+
+continue(skip)&break(stop)
+'''
+for i in range(10):#0-9
+    if i % 3 == 0: continue
+    elif i == 7: break
+    print(i)
